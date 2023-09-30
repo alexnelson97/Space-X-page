@@ -1,0 +1,72 @@
+.logo-container {
+  padding: 20px;
+}
+
+.logo-container img {
+  width: 150px;
+  height: auto;
+}
+
+body {
+  background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/Star6_19_092923_DSC_8052_3_desktop_e1c637e394.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #000000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.logo-container img {
+  max-width: 100px;
+  height: auto;
+}
+
+.menu li,
+.shop li {
+  display: inline;
+  margin-right: 20px;
+  color: white;
+}
+
+.shop li:last-child {
+  margin-right: 0;
+}
+
+.shop img {
+  max-width: 20px;
+  height: auto;
+}
+
+.bottom-left {
+  position: absolute;
+  padding: 10px;
+  bottom: 150px;
+  left: 50px;
+  text-align: left;
+  border: none;
+}
+
+.text {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+button {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #000;
+}
